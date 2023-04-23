@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form for JEE Main 2023 </title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png">
+
+    <style>
+        #NTA{float: right;}
+
+        #AAAAA{
+         size: 200px;
+           
+        }
+
+        table,tr,td , th {
+            border: 1px solid black;  
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+        }
+
+        html{
+            scroll-behavior: smooth;
+            font-size:larger;
+        }
+        #Txt{
+            text-align: center;
+            margin-top: -5%;
+            margin-left: 15%;
+          
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span><img src="img1.png" 
+                width="300"
+                alt="Extract the folder ">
+
+            
+            <img src="img2.png"
+               width="300"
+               id="NTA"
+               alt="Extract the folder ">
+
+               <h1 id="Txt">JEE Mains 2023 Registration Form </h1>
+        
+        </span>
+        
+        <br/>
+
+        <hr>
+
+    </header>
+
+    <form action="completed.html">
+      
+    <h2>Personal Details : </h2>
+
+   <label>Candidate's Name :</label>
+
+   <br/>
+   <br/>
+
+   <span>
+   
+    <input type="text" placeholder="First Name" required >
+   </span>
+   &nbsp &nbsp &nbsp &nbsp
+   <span>
+    
+    <input type="text" placeholder="Last Name" required>
+   </span>  
+
+   <br>
+   <br>
+
+   <label>Father's Name :</label>
+
+   <br/>
+   <br/>
+   
+
+   <span>
+    
+    <input type="text" placeholder="First Name"required>
+   </span>
+   &nbsp &nbsp &nbsp &nbsp
+   <span>
+    
+    <input type="text" placeholder="Last Name"required>
+   </span>
+
+   <br/>
+   <br/>
+
+   <label> Mother's Name :</label>
+
+   <br/>
+   <br/>
+
+   <span>
+    
+    <input type="text" placeholder="First Name" required> 
+   
+    </span>
+
+    &nbsp &nbsp &nbsp &nbsp
+   <span>
+    
+    <input type="text" placeholder="Last Name" required>
+   
+    </span>
+
+    <br/>
+    <br/>
+
+    <label>Candidate's Date of Birth :</label>
+    <br/>
+    <br/>
+    <input type="date" required >
+
+ 
+    <br/>
+    <br/>
+
+<label for="gender">Gender :</label required>
+
+<br/>
+<br/>
+
+<select name="gender" id="gd" required>
+    <option value="Select">--Select--</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Prefer Not to Say">Prefer Not to Say</option>
+  
+</select>
+
+<br/>
+<br/>
+
+<label for="IDt">Type of Identification :</label>
+
+<br/>
+<br/>
+
+<select name="IDt" id="id2" required>
+    <option value="Select">--Select--</option>
+  <option value="Pan">Pan Card</option>
+  <option value="Aadhar">Aadhar Card</option>
+  <option value="Any">Any Other</option>
+  
+</select>
+
+
+
+
+<br/>
+<br/>
+
+    <label >Identification Number :</label>
+
+    <br/>
+    <br/>
+
+    <input type="text" maxlength="12" placeholder=" Enter Identification Number " size="25" required> 
+
+    
+    <br/>
+    <br/>
+
+    <h2> Address : </h2>
+
+    <label>Street Line 1</label>
+
+    <br/> 
+    <br/>
+    
+ 
+    <span>
+     
+     <input type="text" placeholder="Street Line 1" size="75" required >
+
+    </span>
+
+    <br/>
+    <br/>
+
+    <label for="AAAA">Street Line 2</label>
+
+    <br/> 
+    <br/>
+    
+ 
+    <span>
+     
+     <input id="AAAA" type="text" placeholder="Street Line 2" size="75">
+
+    </span>
+
+    <br/>
+    <br/>
+
+    <label>Country: </label>
+
+    <br/>
+    <br/>
+
+    <input name="select" value="India" disabled >
+        
+    <br/>
+    <br/>
+
+    <label> Pincode : </label>
+
+    <br/>
+    <br/>
+
+    <input type="text" maxlength="6" placeholder="Pincode" required>
+
+    
+    <br/>
+    <br/>
+
+    <label for="email">Email :</label>
+    <br/>
+    <br/>
+    
+    <input type="email" placeholder="example@example.com" required>
+
+    <br/>
+    <br/>
+
+    <label for="email">Phone No :</label>
+    <br/>
+    <br/>
+    
+    <input type="number" placeholder="9900**4100" maxlength="10" required>
+
+    <br/>
+    <br/>
+    
+    <h2>Documents :</h2>
+    
+    
+
+    <label for="MS" > Class 10 Marksheet :</label>
+    <br/>
+    <br/>
+
+    <input type="file" for="MS" accept=".pdf/*" required> 
+
+    
+    <br/>
+    <br/>
+
+    <label for="MSa" > Photograph :</label>
+    <br/>
+    <br/>
+
+    <input type="file" for="MSa" accept="image/*" required>
+
+    <br/>
+    <br/>
+
+    <label for="Fb">Your views on examination schedule :</label>
+    <br/>
+    <br/>
+    <textarea id="AAAAA" rows="10" cols="50" placeholder="Write your views " required > </textarea>    
+
+    <br/>
+    <br/>
+
+    <label for="rating"><h3>Rate NTA Abhyas Mock Tests </h3></label>
+    
+    <input type="radio" id="rate1" name="rating" value="1" required>
+    <label for="1">1</label><br>
+    <input type="radio" id="rate2" name="rating" value="2">
+    <label for="2">2</label><br>
+    <input type="radio" id="rate3" name="rating" value="3">
+    <label for="3">3</label><br/>
+    <input type="radio" id="rate4" name="rating" value="4">
+    <label for="4">4</label><br>
+    <input type="radio" id="rate5" name="rating" value="5">
+    <label for="5">5</label><br>
+
+    <br/>
+    <br/>
+
+    <h3>Feedback for Session 1 </h3>
+    
+        <table>
+            <tr>
+                <td>Slot</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td>
+                    <select for="slot" required>
+                        <option value="slot">Select</option>
+                        <option value="slot">10 Jan Morning</option>
+                        <option value="slot">10 Jan Evening</option>
+                        <option value="slot">11 Jan Morning</option>
+                        <option value="slot">11 Jan Evening</option>
+                        <option value="slot">12 Jan Morning</option>
+                        <option value="slot">12 Jan Evening</option>
+                        <option value="slot">13 Jan Morning</option>
+                        <option value="slot">13 Jan Evening</option>
+                        <option value="slot">14 Jan Morning</option>
+                        <option value="slot">14 Jan Evening</option>
+                        <option value="slot">15 Jan Morning</option>
+                        <option value="slot">15 Jan Evening</option>
+                        <option value="slot">16 Jan Morning</option>
+                        <option value="slot">16 Jan Evening</option>
+    
+                        
+                    </select>
+    
+                </td>
+                <td>
+                    <select for="ease" required>
+                        <option value="Ease">Select</option>
+                        <option value="Ease">Easy</option>
+                        <option value="Ease">Moderate</option>
+                        <option value="Ease">Hard</option>
+                        
+                    </select>
+    
+                </td>
+                <td>
+                    <select for="ease" required >
+                    <option value="Ease">Select</option>
+                        <option value="Ease">Easy</option>
+                        <option value="Ease">Moderate</option>
+                        <option value="Ease">Hard</option></td>
+                <td>
+    
+                    <select for="ease" required >
+    
+                    <option value="Ease">Select</option>
+                        <option value="Ease">Easy</option>
+                        <option value="Ease">Moderate</option>
+                        <option value="Ease">Hard</option>
+                </td>
+            </tr>
+           
+        </table>
+
+        <h3>Imporant Guidelines</h3>
+
+        <ul>
+            <li>
+                <p>
+                    Please download and read carefully the Information Bulletin and instructions/ procedure given therein and below
+                    Examination Fee : The Fee for JEE(Main) - 2023 per Session is as follows :
+                </p>
+        
+                <table>
+                    <caption> Fee Structure </caption>
+                    <thead>
+                    <th style="background-color: aqua;">Course</th>
+                    <th style="background-color:lemonchiffon">Category</th>
+                    <th style="background-color:gray">Gender</th>
+                    <th style="background-color: navajowhite;">Fee Per Session </th>
+                    </thead>
+                    <tr>
+                        <td rowspan="5"> Paper 1: B.E./B. Tech
+                            or
+                            Paper 2A: B. Arch
+                            or
+                            Paper 2B: B.Planning
+                         </td>
+                        <td rowspan="2">
+                            General/Gen-EWS/ OBC(NCL)
+                        </td>
+                        <td > Male </td>
+                        <td> 1000 </td>
+                    </tr>
+                    <tr>
+                        <td>Female</td>
+                        <td>800</td>
+                       
+                    </tr>
+        
+                    <tr>
+                        <td rowspan="2">SC/ST/PwD</td>
+                        <td>Male</td>
+                        <td>500</td>
+                    </tr>
+        
+                    <tr>
+                       
+                        <td>Female</td>
+                        <td>500</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Third Gender</td>
+                        <td></td>
+                        <td>500</td>
+                    </tr>
+        
+                    <tr>
+                        <td rowspan="5"> Paper 1: B.E./B. Tech & Paper 2A: B. Arch
+                            or
+                            Paper 1: B.E./B. Tech & Paper 2B: B. Planning
+                            or
+                            Paper 1: B.E./B.Tech, Paper 2A: B. Arch & Paper 2B : B.Planning
+                            or
+                            Paper 2A: B. Arch & Paper 2B: B.Planning
+                         </td>
+                        <td rowspan="2">
+                            General/Gen-EWS/ OBC(NCL)
+                        </td>
+                        <td > Male </td>
+                        <td> 2000 </td>
+                    </tr>
+                    <tr>
+                        <td>Female</td>
+                        <td>1600</td>
+                       
+                    </tr>
+        
+                    <tr>
+                        <td rowspan="2">SC/ST/PwD</td>
+                        <td>Male</td>
+                        <td>1000</td>
+                    </tr>
+        
+                    <tr>
+                       
+                        <td>Female</td>
+                        <td>1000</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Third Gender</td>
+                        <td></td>
+                        <td>1000</td>
+                    </tr>
+        
+                </table>
+            </li>
+            <li>
+                <p>To download the information brochure , <a href="https://jeemain.nta.nic.in/information-bulletin/" target="_blank"><em>Click Here</em></a></p>
+             </li>
+
+            <li> <p> To download the NTA Abhyas App , <a href="https://www.nta.ac.in/abhyas" target="_blank" > <i>Click Here</i> </a> </p></li>
+            
+            <li> <p> The last date to fill this form is <del>28<sup>th</sup>February, 2023</del> 5<sup>th</sup>March,2023 .</p></li>
+        
+        </ul>
+
+
+    <button style="font-size: larger; text-align: center;  margin: auto; display: flex; display: grid;">Submit</button>
+
+    </form>
+
+    <footer>
+        <span>
+            <p style="background-color: black; color: aliceblue ;">Contact Us</p> 
+            <a href="tel:011-40759000"><img src="https://cdn0.iconfinder.com/data/icons/basic-uses-symbol-vol-1/100/Call_Phone_Cell_Ring_Pick_up-512.png"
+                width="20"></a>
+
+            <a href="mailto:jeemain@nta.ac.in"><img width=20 src="https://cdn-icons-png.flaticon.com/512/561/561127.png"></a>
+        </span>
+       
+
+    </footer>
+
+</body>
+</html>
